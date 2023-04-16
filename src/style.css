@@ -25,6 +25,9 @@ li {
   font-family: "Raleway", sans-serif;
   line-height: 20px;
   font-weight: 300px;
+}
+
+li:first-letter {
   text-transform: capitalize;
 }
 
