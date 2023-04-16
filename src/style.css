@@ -25,6 +25,7 @@ li {
   font-family: "Raleway", sans-serif;
   line-height: 20px;
   font-weight: 300px;
+  text-transform: capitalize;
 }
 
 small {
@@ -51,7 +52,7 @@ small {
 }
 
 .weather-temperature img {
-  margin-right: 10px;
+  margin-right: 6px;
   height: 65px;
   width: 65px;
 }
