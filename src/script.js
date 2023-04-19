@@ -5,7 +5,7 @@ function formatDate(timestamp) {
     hours = `0${hours}`;
   }
 
-  let minutes = date.getMinutes;
+  let minutes = date.getMinutes();
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
@@ -19,7 +19,7 @@ function formatDate(timestamp) {
     "Friday",
     "Saturday",
   ];
-  let day = days[date.getDay];
+  let day = days[date.getDay()];
 
   //something is going wrong here, not recognizing my date.
   return `${day} ${hours}:${minutes}`;
