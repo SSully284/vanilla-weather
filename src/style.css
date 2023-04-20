@@ -73,6 +73,15 @@ small {
   font-size: 16px;
 }
 
+.weather-temperature .active {
+  color: white;
+  cursor: default;
+}
+
+.weather-temperature .active {
+  text-decoration: none;
+}
+
 .git-link {
   margin-left: 30px;
   color: rgb(251, 255, 6);
