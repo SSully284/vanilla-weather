@@ -82,6 +82,33 @@ small {
   text-decoration: none;
 }
 
+.weather-forecast {
+  margin-top: 25px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgb(0, 0, 0, 0.8);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.weather-forecast-temperature {
+  color: rgba(255, 255, 0, 0.85);
+  font-size: 14px;
+}
+
+.weather-forecast-high {
+  font-weight: 300;
+}
+
+.weather-forecast-low {
+  opacity: 0.55;
+}
+
 .git-link {
   margin-left: 30px;
   color: rgb(251, 255, 6);
