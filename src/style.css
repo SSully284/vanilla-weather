@@ -7,7 +7,6 @@ body {
 }
 
 h1 {
-  color: rgb(251, 255, 0);
   font-family: "Raleway", sans-serif;
   line-height: 29px;
   font-weight: 800px;
@@ -45,13 +44,24 @@ small {
 .container {
   color: white;
   background-color: rgba(17, 16, 16, 0.85);
-  border: 2px solid rgba(251, 255, 0, 0.9);
+  border: 3px solid rgb(245, 245, 188);
   border-radius: 30px;
   padding: 30px;
+  box-shadow: 0 0 6px 2px rgb(248, 250, 81), 0 0 20px 6px rgb(242, 245, 70);
+  inset: 0 0 10px 5px;
+  margin-bottom: 20px;
 }
 
 .overview {
   margin-bottom: 20px;
+}
+
+.neon-text {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 7px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 21px rgb(228, 202, 5), 0 0 42px rgb(255, 255, 0),
+    0 0 82px rgb(243, 243, 22), 0 0 92px rgb(238, 254, 19),
+    0 0 102px rgb(208, 194, 8);
 }
 
 .weather-temperature img {
