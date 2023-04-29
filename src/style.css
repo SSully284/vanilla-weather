@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/217/original/water-droplets.jpg?1681157508");
+  background-image: url("../src/images/water-droplets.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
